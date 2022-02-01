@@ -170,7 +170,7 @@ document.addEventListener("click", (e) => {
         if (classes.includes("send_reply")) {
           return "This one already has a reply box";
         }
-        addingReply("send_reply", "reply", parentSection, "Reply");
+        addingReply("send_reply", "", parentSection, "Reply");
 
         // Trigering the add reply button event
         let reply_box = document.querySelector(".send_reply");
