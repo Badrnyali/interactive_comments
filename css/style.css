@@ -162,7 +162,7 @@ button {
 .reply {
   position: relative;
   height: 200px;
-  max-width: 90%;
+  width: 90%;
   margin-left: auto;
   overflow: visible;
   order: 1;
